@@ -2,7 +2,7 @@
   "name": "h8mile",
   "version": "0.0.1",
   "description": "Email categorising and publishing platform for some charity work",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.13.4",
-    "mail-listener2" : "^0.1.8"
+    "mail-listener2": "^0.1.8",
+    "monk": "^1.0.1"
   }
 }
