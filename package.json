@@ -1,0 +1,22 @@
+{
+  "name": "h8mile",
+  "version": "0.0.1",
+  "description": "Email categorising and publishing platform for some charity work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkarhila/viewgodh8mile"
+  },
+  "author": "Reima Karhila",
+  "license": "GNU AFFERO GPL v3",
+  "bugs": {
+    "url": "https://github.com/rkarhila/viewgodh8mile/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mail-listener2" : "^0.1.8"
+  }
+}
